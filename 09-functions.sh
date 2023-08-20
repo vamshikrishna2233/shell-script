@@ -4,7 +4,7 @@
 
 DATE=$(date +%F)
 SCRIPT_NAME=$0
-LOGFILE=/tmp/SCRIPT_NAME-$DATE.log
+LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
 VALIDATE(){
     #1------ it will receive the argument
